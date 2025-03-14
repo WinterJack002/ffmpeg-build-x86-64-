@@ -1,2 +1,2 @@
-# ffmpeg-build-x86-64-
-This is ffmpeg x86 rebuild assests for SFY Qt embedded.
+# ffmpeg-build-x64
+This is ffmpeg x86(64) rebuild assests for SFY Qt embedded.
