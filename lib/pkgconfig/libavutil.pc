@@ -1,0 +1,14 @@
+prefix=shared
+exec_prefix=${prefix}
+libdir=shared/lib
+includedir=shared/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 58.29.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -lva_win32 -lva -lm -luser32 -lva -lbcrypt -latomic
+Cflags: -I${includedir}
